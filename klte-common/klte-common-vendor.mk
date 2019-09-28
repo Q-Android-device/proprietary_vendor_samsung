@@ -23,8 +23,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/samsung/klte-common/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/klte-common/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
-    vendor/samsung/klte-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/klte-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+	vendor/samsung/klte-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/samsung/klte-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
+	vendor/samsung/klte-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+	vendor/samsung/klte-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/samsung/klte-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/samsung/klte-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/samsung/klte-common/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/samsung/klte-common/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
     vendor/samsung/klte-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
